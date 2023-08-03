@@ -35,5 +35,5 @@ conda install -c conda-forge jupyterlab ipywidgets
 conda install -c conda-forge scikit-learn
 conda install git matplotlib pandas seaborn
 pip install himalaya voxelwise_tutorials
-pip install nilearn surfplot neuromaps
+pip install nilearn surfplot neuromaps mne
 ```
