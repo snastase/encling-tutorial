@@ -1,1 +1,4 @@
 .ipynb_checkpoints
+encling-data
+*.tgz
+*.tar.gz
