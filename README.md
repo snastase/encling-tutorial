@@ -4,6 +4,8 @@ This tutorial introduces a typical **enc**oding framework for mapping **ling**ui
 
 This tutorial can be run interactively online using Google Colab: [`Colab Notebook`](https://colab.research.google.com/drive/1L565z54Oth7oNIbzZDt1pLG-l4iOmRaD?usp=sharing)
 
+Use `git clone https://github.com/snastase/encling-tutorial.git` to download this repository.
+
 If you want to run this tutorial locally on a Mac or Linux machine, you can set up a dedicated computing environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). If you don't already have a conda installation, you can install [miniconda](https://docs.conda.io/en/latest/miniconda.html)—see below. If you already have a working conda installation, you can skip this step.
 
 If you're on a Windows machine, use [PowerShell](https://docs.microsoft.com/en-us/powershell/), [Cygwin](https://www.cygwin.com/), [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), or [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to log onto the PNI server, then proceed to the following Linux instructions.
@@ -39,3 +41,5 @@ conda install git matplotlib pandas seaborn
 pip install himalaya voxelwise_tutorials
 pip install nilearn surfplot neuromaps mne
 ```
+
+Now, you should be able to launch `jupyter lab` from the command line and open the `encling_tutorial.ipynb` notebook.
