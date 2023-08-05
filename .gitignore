@@ -2,3 +2,6 @@
 encling-data
 *.tgz
 *.tar.gz
+.DS_Store
+*.fif
+*.nii.gz
