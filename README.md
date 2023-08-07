@@ -32,8 +32,6 @@ conda activate encling
 
 Run the following code line-by-line to install the necessary packages into the `encling` environment:
 ```
-conda create -n encling
-conda activate encling
 conda install -c huggingface transformers
 conda install -c conda-forge accelerate
 conda install -c pytorch pytorch numpy
