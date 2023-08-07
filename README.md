@@ -37,6 +37,7 @@ conda install -c conda-forge accelerate
 conda install -c pytorch pytorch numpy
 conda install -c conda-forge jupyterlab ipywidgets
 conda install -c conda-forge scikit-learn
+conda install -c conda-forge gensim
 conda install git matplotlib pandas seaborn
 pip install himalaya voxelwise_tutorials
 pip install nilearn surfplot neuromaps mne
