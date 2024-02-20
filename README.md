@@ -24,7 +24,21 @@ curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o M
 bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
-Next, we'll create a conda environment called `encling` for the tutorial and activate that environment:
+Next, navigate into the cloned repo and create a conda environment called `encling` from the `environment.yml` file:
+```
+conda create -f environment.yml
+```
+
+Finally, activate the conda environment and start JupyterLab
+```
+conda activate encling
+```
+
+Now, you should be able to launch `jupyter lab` from the command line and open the `encling_tutorial.ipynb` notebook.
+
+---
+
+Optionally, if you want to use updated versions of the software, you can build the conda environment from scratch:
 ```
 conda create --name encling
 conda activate encling
@@ -42,5 +56,3 @@ conda install git matplotlib pandas seaborn
 pip install himalaya voxelwise_tutorials
 pip install nilearn surfplot neuromaps mne
 ```
-
-Now, you should be able to launch `jupyter lab` from the command line and open the `encling_tutorial.ipynb` notebook.
